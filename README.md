@@ -31,19 +31,15 @@ AWS SAA-C03 Certified with expertise in building secure, scalable architectures 
 
 Architected a serverless hosting stack designed to maximize AWS Free Tier coverage without compromising on security headers, IAM hygiene, or TLS enforcement.
 
-| Layer | Design Decision |
-|---|---|
-| **Edge Security** | CloudFront OAC enforces HTTPS end-to-end and blocks all direct S3 access |
-| **IAM & Permissions** | Least-privilege policies scoped to specific S3 + CloudFront ARNs — minimizing blast radius |
-| **Hardened Headers** | Response headers policy (HSTS, CSP, X-Frame-Options) earns an A-grade on security scanners |
-| **DNS** | Route 53 alias records route root-domain traffic directly to CloudFront — no redirects |
-
-`S3` · `CloudFront` · `Route 53` · `ACM` · `IAM`
+- **Edge Security** : CloudFront OAC enforces HTTPS end-to-end and blocks all direct S3 access.
+- **IAM & Permissions** : Least-privilege policies scoped to specific S3 + CloudFront ARNs minimizing blast radius.
+- **Hardened Headers** :  Response headers policy (HSTS, CSP, X-Frame-Options) earns an A-grade on security scanners.
+- **DNS** : Route 53 alias records route root-domain traffic directly to CloudFront — no redirects |
+- Tech Stack: `S3` · `CloudFront` · `Route 53` · `ACM` · `IAM`
 
 🔗 [View Repository →](https://github.com/ravigoyal106/aws-s3-secure-staticweb-hosting)
 
 ---
-
 ### Connect with Me
 
 <p align="left">
