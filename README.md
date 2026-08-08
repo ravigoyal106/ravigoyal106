@@ -27,19 +27,15 @@ AWS SAA-C03 Certified with expertise in building secure, scalable architectures 
 
 ### Featured Projects
 
-####  Secure Serverless Website Hosting on AWS
+### [Secure Serverless Website Hosting on AWS](https://github.com/ravigoyal106/aws-s3-secure-staticweb-hosting)
+- **Architected** and deployed a secure, serverless static website on AWS using S3, CloudFront, Route 53, ACM, and IAM, enforcing HTTPS end-to-end and eliminating direct public access to backend storage via CloudFront Origin Access Control (OAC).
+- **Implemented** least-privilege IAM policies scoped to specific S3 and CloudFront resource ARNs for deployment access, containing the blast radius of any potential credential exposure instead of relying on broad admin permissions. 
+- **Configured** a CloudFront response headers policy (HSTS, CSP, X-Frame-Options, X-Content-Type-Options), independently validated with an A-grade score on a third-party security header scanner. 
+- **Migrated** DNS management from a third-party registrar to Amazon Route 53 and configured AWS alias records for direct CloudFront routing, resolving DNS-spec limitations that standard CNAME records can't handle at the domain root. 
+- **Optimized** cloud infrastructure to run at ~$0.50/month in AWS Free tier account.
 
-Architected a serverless hosting stack designed to maximize AWS Free Tier coverage without compromising on security headers, IAM hygiene, or TLS enforcement.
+[View Repository →](https://github.com/ravigoyal106/aws-s3-secure-staticweb-hosting)
 
-- **Edge Security** : CloudFront OAC enforces HTTPS end-to-end and blocks all direct S3 access.
-- **IAM & Permissions** : Least-privilege policies scoped to specific S3 + CloudFront ARNs minimizing blast radius.
-- **Hardened Headers** :  Response headers policy (HSTS, CSP, X-Frame-Options) earns an A-grade on security scanners.
-- **DNS** : Route 53 alias records route root-domain traffic directly to CloudFront — no redirects |
-- Tech Stack: `S3` · `CloudFront` · `Route 53` · `ACM` · `IAM`
-
-🔗 [View Repository →](https://github.com/ravigoyal106/aws-s3-secure-staticweb-hosting)
-
----
 ### Connect with Me
 
 <p align="left">
