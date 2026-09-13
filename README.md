@@ -30,10 +30,20 @@ AWS SAA-C03 Certified with expertise in building secure, scalable architectures 
 ### [Terraform Labs →](https://github.com/ravigoyal106/Terraform-lab)
 ### [Terraform AWS Fundamentals Lab →](https://github.com/ravigoyal106/Terraform-AWS-Fundamentals-Lab)
 
-
 ---
 
 ## Featured Projects
+
+### [Serverless Contact Form on AWS (Terraform)](https://github.com/ravigoyal106/serverless-contact-form-terraform)
+
+- Architected and deployed a fully serverless AWS application (API Gateway, Lambda, DynamoDB, SES, CloudWatch) using modular, reusable Terraform — replacing manual builds with version-controlled, reproducible infrastructure.
+- Built a GitHub Actions CI/CD pipeline using OIDC federation (no stored AWS keys), with automated terraform plan review, tfsec scanning, and manual approval gates before production deploys.
+- Enforced least-privilege IAM across both the app and CI/CD roles by scoping permissions to specific resource ARNs, minimizing blast radius.
+- Implemented observability by design — CloudWatch log retention, error/throttle alarms, and SNS alerting for proactive failure detection.
+- Diagnosed and resolved real infrastructure incidents (state lock contention, OIDC trust misconfig, resource drift), then validated full reproducibility by rebuilding the environment from code alone.
+
+[View Repository →](https://github.com/ravigoyal106/serverless-contact-form-terraform)
+
 
 ### [Secure Serverless Website Hosting on AWS](https://github.com/ravigoyal106/aws-s3-secure-staticweb-hosting)
 - **Architected** and deployed a secure, serverless static website on AWS using S3, CloudFront, Route 53, ACM, and IAM, enforcing HTTPS end-to-end and eliminating direct public access to backend storage via CloudFront Origin Access Control (OAC).
