@@ -26,10 +26,6 @@ AWS SAA-C03 Certified with expertise in building secure, scalable architectures 
 ### Hands-On Labs: Cloud & Infrastructure
 > *"To master a new technology, you will have to play with it.  --Jordan Peterson"*
 - I believe learning by doing gives you direct exposure to technology, which helps you understand it much better than just reading theory or watching videos. That's why all my practical labs and daily exercises go straight to these repositories.
-
-### [Terraform Labs →](https://github.com/ravigoyal106/Terraform-lab)
-### [Terraform AWS Fundamentals Lab →](https://github.com/ravigoyal106/Terraform-AWS-Fundamentals-Lab)
-
 ---
 
 ## Featured Projects
@@ -53,6 +49,8 @@ AWS SAA-C03 Certified with expertise in building secure, scalable architectures 
 - **Optimized** cloud infrastructure to run at ~$0.50/month in AWS Free tier account.
 
 [View Repository →](https://github.com/ravigoyal106/aws-s3-secure-staticweb-hosting)
+
+[Terraform AWS Fundamentals →](https://github.com/ravigoyal106/Terraform-AWS-Fundamentals-Lab)
 
 ### Connect with Me
 
